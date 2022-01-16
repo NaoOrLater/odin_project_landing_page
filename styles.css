@@ -9,6 +9,12 @@ body {
 .header {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
+}
+
+.right-header-links {
+    display: flex;
+    gap: 20px;
 }
 
 ul {
