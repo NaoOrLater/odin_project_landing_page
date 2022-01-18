@@ -9,24 +9,24 @@ body {
 }
 
 .header {
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
     background-color: #1F2937;
-    
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;  
 }
 
 .left-header-links {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .right-header-links {
-    display: flex;
+    color: #e5e7eb;
     gap: 20px;
     font-size: 18px;
+    display: flex;
     align-items: center;
-    color: #e5e7eb;
     margin: 10px;
 }
 
