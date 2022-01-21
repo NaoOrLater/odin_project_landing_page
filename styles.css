@@ -128,7 +128,7 @@ a {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .section-three .head {
@@ -187,4 +187,13 @@ a {
 
 .section-four .button {
     border: 1px solid white;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
