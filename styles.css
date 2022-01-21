@@ -10,7 +10,6 @@ body {
 
 .header {
     background-color: #1F2937;
-    gap: 10px;
     display: flex;
     justify-content: space-between;  
 }
@@ -23,11 +22,11 @@ body {
 
 .right-header-links {
     color: #e5e7eb;
-    gap: 20px;
+    gap: 30px;
     font-size: 18px;
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 ul {
@@ -42,4 +41,41 @@ a {
 
 .section-one {
     display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding: 90px;
+    color: white;
+}
+
+.section-one .left-side {
+    margin: 20px;
+    max-width: 350px;
+    padding-left: 40px;
+}
+
+.section-one .header {
+    font-weight: bolder;
+    font-size: 48px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.section-one .content {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.section-one img {
+    height: 400px;
+    width: 0 auto;
+    margin-bottom: 40px;
+}
+
+.button {
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
 }
