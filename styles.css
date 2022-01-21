@@ -17,6 +17,14 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.left-header-links img {
+    height: 90px;
+    width: auto;
+    padding-left: 20px;
 }
 
 .right-header-links {
@@ -41,8 +49,8 @@ a {
 .section-one {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
-    padding: 90px;
+    justify-content: space-around;
+    padding: 40px;
     color: white;
 }
 
@@ -137,7 +145,7 @@ a {
 }
 
 .section-three img {
-    height: 700px;
+    height: 400px;
     width: auto;
     padding-bottom: 20px;
 }
