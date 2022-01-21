@@ -5,3 +5,5 @@ The purpose of this project is to show competence in using HTML, CSS, and CSS Fl
 For this project, I will be creating a landing page for my dog, Buddy. 
 
 All photos are taken and owned by me.
+
+Logo image credit is given to Shutterstock.com
