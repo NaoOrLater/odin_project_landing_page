@@ -85,6 +85,7 @@ a {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
+    
 }
 
 .section-two {
@@ -154,4 +155,36 @@ a {
     width: 700px;
     display: flex;
     justify-content: end;
+}
+
+.section-four {
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-four .border {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 30px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.section-four .title {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section-four .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.section-four .button {
+    border: 1px solid white;
 }
